@@ -39,3 +39,21 @@ section, fieldset {
 h2#team {
   text-shadow: 2px 2px #ffffff;
 }
+
+/* link details */
+
+a:link {
+  color:#2C6C7F;
+}
+
+a:visited {
+  color:#115468;
+}
+
+a:hover{
+  color:#F8A444;
+}
+
+a:active{
+  color:white;
+}
