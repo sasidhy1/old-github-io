@@ -28,3 +28,8 @@ section, fieldset {
   width: 1000px;
 }
 
+/* selectors */
+
+h2#team {
+  text-shadow: 2px 2px #ffffff;
+}
