@@ -17,3 +17,14 @@ img {
   border: 3px double;
   max-height: 400px;
 }
+
+section, fieldset {
+  display: block;
+  float: center;
+  margin: auto;
+  background: rgba(256, 256, 256, 0.75);
+  padding: 10px;
+  border-radius: 20px;
+  width: 1000px;
+}
+
