@@ -67,4 +67,8 @@ a:active{
   h2  {
     font-size: 1.0em;
   }
+  p, a, ul, table {
+    min-width: 30%;
+    font-size: .8em;
+  }
 }
