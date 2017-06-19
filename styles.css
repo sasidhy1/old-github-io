@@ -57,3 +57,14 @@ a:hover{
 a:active{
   color:white;
 }
+
+/* responsive details */
+
+@media screen and (max-width: 400px) {
+  h1  {
+    font-size: 1.2em;
+  }
+  h2  {
+    font-size: 1.0em;
+  }
+}
