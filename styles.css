@@ -1,0 +1,87 @@
+h1, h2  {
+  text-align: center;
+}
+
+body {
+  font-family: "Garamond";
+  background-image: url("http://wallpapercave.com/wp/tRqnZad.jpg");
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: #68BBD9;
+}
+
+img {
+  display: block;
+  margin: auto;
+  border: 3px double;
+  max-height: 400px;
+}
+
+section, fieldset {
+  display: block;
+  float: center;
+  margin: auto;
+  background: rgba(256, 256, 256, 0.75);
+  padding: 10px;
+  border-radius: 20px;
+  width: 1000px;
+}
+
+/* selectors */
+
+.volumes  {
+  background: rgba(256, 256, 256, 0.75);
+  float: center;
+  margin: auto;
+}
+
+h2#team {
+  text-shadow: 2px 2px #ffffff;
+}
+
+/* link details */
+
+a:link {
+  color:#2C6C7F;
+}
+
+a:visited {
+  color:#115468;
+}
+
+a:hover{
+  color:#F8A444;
+}
+
+a:active{
+  color:white;
+}
+
+/* responsive details */
+
+@media screen and (max-width: 400px) {
+  h1  {
+    font-size: 1.2em;
+  }
+  h2  {
+    font-size: 1.0em;
+  }
+  p, a, ul, table {
+    min-width: 30%;
+    font-size: .8em;
+  }
+}
+
+@media screen and (max-width: 1090px) {
+  section, fieldset {
+    width: 94%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  img {
+    width: 95%;
+  }
+}
