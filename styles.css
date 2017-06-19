@@ -1,1 +1,7 @@
-body {background:blue}
+body {
+  background-image: url("http://wallpapercave.com/wp/tRqnZad.jpg");
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: #68BBD9;
+}
