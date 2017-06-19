@@ -30,6 +30,12 @@ section, fieldset {
 
 /* selectors */
 
+.volumes  {
+  background: rgba(256, 256, 256, 0.75);
+  float: center;
+  margin: auto;
+}
+
 h2#team {
   text-shadow: 2px 2px #ffffff;
 }
